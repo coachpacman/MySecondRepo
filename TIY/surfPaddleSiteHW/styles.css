@@ -30,14 +30,16 @@ html {
 
 h1 {
 	color: white;
-	text-transform: uppercase;
 	font-size: 100px;
 	margin: 0;
 }
 
+h2 {
+	font-size: 50px;
+}
+
 li {
 	list-style: none;
-	text-transform: uppercase;
 	margin-right: 10px;
 }
 
@@ -72,12 +74,21 @@ ul li:nth-child(3), ul li:nth-child(4) {
 #footer {
 	clear: both;
 	background: green;
+	padding-top: 10px;
 }
 
 .footGal {
 	height: 325px;
 	width: 25%;
 	float: left;
-	margin-top: 50px;
 }
+
+h1, li, h2, h3, h4, h5, .footGal {
+	text-transform: uppercase;	
+}
+
+#header, #footer h2 {
+	text-align: center;
+}
+
 
